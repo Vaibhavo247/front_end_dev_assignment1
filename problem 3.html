@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Product Listing Page</title>
+  <style>
+    * {
+      margin: 0%;
+      padding: auto;
+    }
+
+    body {
+      background-image: url('bg1.jpg');
+
+      background-position: center;
+      background-size: cover;
+      background-blend-mode: lighten;
+    }
+
+    .upheading {
+      text-align: center;
+      font-size: 30px;
+      font-style: normal;
+    }
+
+    .container {
+      width: 800px;
+      height: 600px;
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      padding: auto;
+    }
+
+    .left {
+      height: 400px;
+      width: 300px;
+      border: 1px solid black;
+    }
+
+    .left img {
+      height: 400px;
+      width: 300px;
+      box-sizing: content-box;
+      background-origin: padding-box;
+    }
+
+    .right {
+      height: 400px;
+      padding: 12px 13px;
+      column-gap: 20px;
+    }
+
+    .right p {
+      padding: 12px 13px;
+      color: bisque;
+    }
+
+    .right h4 {
+      padding-top: 30px;
+      margin-top: 20px;
+      text-align: justify;
+      font-variant-caps: inherit;
+      margin-left: 13px;
+      color: bisque;
+    }
+
+    #num {
+      width: 40px;
+    }
+
+    .checked {
+      margin-top: 10px;
+      margin: left 10px;
+      margin-right: 10px;
+      color: darkorange;
+
+    }
+    .vaibhav{
+      margin-right: 60px;
+    }
+    .vaibhav1{
+      margin-right: 35px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="upheading">Product Page</h1>
+  <div class="container">
+    <div class="left">
+      <img src="shirt image 2.jpg.jpg" alt="shirt">
+    </div>
+    <div class="right">
+      <h2 style="color: white"> Cotton Shirt</h2>
+      <h4>shirts</h4>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+      <p><b>RS 400 50%off</b></p>
+      <p>The world's oldest preserved garment, discovered by Flinders Petrie, is a "highly sophisticated" linen shirt
+        from a First Dynasty Egyptian tomb at Tarkan, dated to c. 3000 BC: "the shoulders and sleeves have been finely
+        pleated to give form-fitting trimness while allowing the wearer room to move. The small fringe formed during
+        weaving along one edge of the cloth has been placed by the designer to decorate the neck opening and side seam."
+      </p>
+      <p><span class="vaibhav">Color &nbsp;&nbsp;&nbsp;</span> Red</p>
+      <p><span>Availability</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 in stock</p>
+      <p><span class="vaibhav1">select size</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;small <input type="radio"
+          name="sel">medium <input type="radio"
+          name="sel">large  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="sel"></p>
+      <p><span>Quantity</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="num" id="num" </p>
+        <br><button class="btn1"><b>Buy Now</b></button>
+        <button class="btn2"><b>Add to Cart</b></button>
+    </div>
+
+  </div>
+</body>
+
+</html>
